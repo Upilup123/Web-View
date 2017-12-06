@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QLz-qd-hyP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gAf-QA-aC6">
+            <objects>
+                <viewController id="QLz-qd-hyP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PXQ-2A-tdC"/>
+                        <viewControllerLayoutGuide type="bottom" id="W4Z-75-zVl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rXl-6H-XTF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="asd.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="yRP-Pl-zjD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baa-aM-tay">
+                                <rect key="frame" x="0.0" y="0.0" width="193" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.79509468120000004" blue="0.01393308836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Remaja Islam">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="coverVertical" id="9r8-9u-eBY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ial-z5-MAM">
+                                <rect key="frame" x="180" y="156" width="195" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.79509468120000004" blue="0.01393308836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Rodja">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ufh-xy-Vwv" kind="modal" modalTransitionStyle="coverVertical" id="805-SB-h3X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIa-cS-Vp3">
+                                <rect key="frame" x="0.0" y="315" width="193" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.79509468120000004" blue="0.01393308836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Jalantikus">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gj0-hO-gfa" kind="modal" modalTransitionStyle="coverVertical" id="EY9-Mr-yvg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dB4-Vd-Xau">
+                                <rect key="frame" x="180" y="492" width="195" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.79509468120000004" blue="0.01393308836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Okezone">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Sij-Sq-i7q" kind="modal" modalTransitionStyle="coverVertical" id="h5S-ja-Bh0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sU-2g-j56">
+                                <rect key="frame" x="0.0" y="632" width="193" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.79509468120000004" blue="0.01393308836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Detik">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LvI-ho-68q" kind="modal" modalTransitionStyle="coverVertical" id="LoU-AV-HrA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="W4Z-75-zVl" firstAttribute="top" secondItem="yRP-Pl-zjD" secondAttribute="bottom" id="Db4-kB-9yh"/>
+                            <constraint firstItem="yRP-Pl-zjD" firstAttribute="top" secondItem="rXl-6H-XTF" secondAttribute="top" id="omp-f5-JpA"/>
+                            <constraint firstAttribute="trailing" secondItem="yRP-Pl-zjD" secondAttribute="trailing" id="qPu-NK-m15"/>
+                            <constraint firstItem="yRP-Pl-zjD" firstAttribute="leading" secondItem="rXl-6H-XTF" secondAttribute="leading" id="spG-vC-Z9U"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iiZ-bW-tef" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-760.79999999999995" y="122.78860569715144"/>
+        </scene>
+        <!--Okezone View Controller-->
+        <scene sceneID="dMG-XE-TVa">
+            <objects>
+                <viewController id="Sij-Sq-i7q" customClass="OkezoneViewController" customModule="Web_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nzY-s6-GQH"/>
+                        <viewControllerLayoutGuide type="bottom" id="238-vl-s7X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IlG-u6-vEU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oa2-aD-alJ">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ET2-DX-mJ1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.066698770140000002" green="0.1472273851" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Okezone" id="yqo-rh-9wk">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="s3f-h9-xrI">
+                                            <connections>
+                                                <segue destination="QLz-qd-hyP" kind="modal" modalTransitionStyle="coverVertical" id="2KD-oc-4Pz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Oa2-aD-alJ" firstAttribute="leading" secondItem="IlG-u6-vEU" secondAttribute="leading" id="53N-vk-XzE"/>
+                            <constraint firstItem="Oa2-aD-alJ" firstAttribute="top" secondItem="IlG-u6-vEU" secondAttribute="top" id="FL3-a2-sgk"/>
+                            <constraint firstItem="238-vl-s7X" firstAttribute="top" secondItem="Oa2-aD-alJ" secondAttribute="bottom" id="UcY-7q-LDO"/>
+                            <constraint firstAttribute="trailing" secondItem="Oa2-aD-alJ" secondAttribute="trailing" id="duq-AS-JV4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="OkezoneWebViewApps" destination="Oa2-aD-alJ" id="3PU-85-jxF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sYu-zs-N02" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-762.39999999999998" y="785.75712143928047"/>
+        </scene>
+        <!--Detik View Controller-->
+        <scene sceneID="7FQ-T3-krd">
+            <objects>
+                <viewController id="LvI-ho-68q" customClass="DetikViewController" customModule="Web_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YPN-FL-Ki9"/>
+                        <viewControllerLayoutGuide type="bottom" id="WnI-Tu-QdN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fHf-cK-1Nc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gAo-Qy-SMr">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8cs-wd-DZd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Detik" id="8lK-G5-hox">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="NOn-Sm-Ppx">
+                                            <connections>
+                                                <segue destination="QLz-qd-hyP" kind="modal" modalTransitionStyle="coverVertical" id="AZB-B5-p4O"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gAo-Qy-SMr" firstAttribute="top" secondItem="fHf-cK-1Nc" secondAttribute="top" id="VPy-D2-MYL"/>
+                            <constraint firstItem="gAo-Qy-SMr" firstAttribute="leading" secondItem="fHf-cK-1Nc" secondAttribute="leading" id="kcO-pJ-V4S"/>
+                            <constraint firstItem="WnI-Tu-QdN" firstAttribute="top" secondItem="gAo-Qy-SMr" secondAttribute="bottom" id="rCY-bj-Umi"/>
+                            <constraint firstAttribute="trailing" secondItem="gAo-Qy-SMr" secondAttribute="trailing" id="zzh-F4-Flh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="DetikWebViewApps" destination="gAo-Qy-SMr" id="3FF-tZ-8Hc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rlB-ki-NTc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98.400000000000006" y="785.75712143928047"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Web_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Opn-5R-Oqc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Remaja Islam" id="gyc-D5-HkV">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="Wrn-cp-bgf">
+                                            <connections>
+                                                <segue destination="QLz-qd-hyP" kind="modal" modalTransitionStyle="coverVertical" id="87n-Dx-CzH"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k2r-CF-H4T">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="k2r-CF-H4T" secondAttribute="bottom" id="UaC-zb-W14"/>
+                            <constraint firstItem="k2r-CF-H4T" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Vn8-CA-VDJ"/>
+                            <constraint firstAttribute="trailing" secondItem="k2r-CF-H4T" secondAttribute="trailing" id="o8c-ik-3Lw"/>
+                            <constraint firstItem="k2r-CF-H4T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xqy-hA-IKK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webViewApps" destination="k2r-CF-H4T" id="8Gu-ol-mmh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98.400000000000006" y="122.78860569715144"/>
+        </scene>
+        <!--Rodja View Controller-->
+        <scene sceneID="c1T-OM-ekd">
+            <objects>
+                <viewController id="Ufh-xy-Vwv" customClass="RodjaViewController" customModule="Web_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RRx-v9-Iay"/>
+                        <viewControllerLayoutGuide type="bottom" id="XaW-aO-6dh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EIP-Na-OGX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AKb-rN-xg6">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TY7-8O-PHk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.79509468120000004" blue="0.01393308836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Rodja" id="LHA-qv-9Ik">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="MkA-tz-lJg">
+                                            <connections>
+                                                <segue destination="QLz-qd-hyP" kind="modal" modalTransitionStyle="coverVertical" id="T3z-wz-koZ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AKb-rN-xg6" firstAttribute="leading" secondItem="EIP-Na-OGX" secondAttribute="leading" id="Hiq-5V-hSw"/>
+                            <constraint firstAttribute="trailing" secondItem="AKb-rN-xg6" secondAttribute="trailing" id="iJw-pL-LPL"/>
+                            <constraint firstItem="XaW-aO-6dh" firstAttribute="top" secondItem="AKb-rN-xg6" secondAttribute="bottom" id="tYj-GM-0Nc"/>
+                            <constraint firstItem="AKb-rN-xg6" firstAttribute="top" secondItem="EIP-Na-OGX" secondAttribute="top" id="ydt-Tk-GaR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="RodjaWebViewapps" destination="AKb-rN-xg6" id="WX2-Rk-qAM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nde-VX-KM7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="549.60000000000002" y="122.78860569715144"/>
+        </scene>
+        <!--Jalan Tikus View Controller-->
+        <scene sceneID="4gJ-On-hiE">
+            <objects>
+                <viewController id="gj0-hO-gfa" customClass="JalanTikusViewController" customModule="Web_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="95A-0E-qHz"/>
+                        <viewControllerLayoutGuide type="bottom" id="w4n-iu-cNG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fiq-Rt-1jG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1EQ-vP-K7l">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vDx-eP-pFe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.11069820076227188" green="0.53189635276794434" blue="0.53994011878967285" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="JalanTikus" id="dbh-x1-bsy">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="4u8-yR-eN9">
+                                            <connections>
+                                                <segue destination="QLz-qd-hyP" kind="modal" modalTransitionStyle="coverVertical" id="9da-LY-cj7"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w4n-iu-cNG" firstAttribute="top" secondItem="1EQ-vP-K7l" secondAttribute="bottom" id="Ckl-0b-xOJ"/>
+                            <constraint firstAttribute="trailing" secondItem="1EQ-vP-K7l" secondAttribute="trailing" id="Q8j-cz-dRh"/>
+                            <constraint firstItem="1EQ-vP-K7l" firstAttribute="top" secondItem="fiq-Rt-1jG" secondAttribute="top" id="YTw-Lu-0xG"/>
+                            <constraint firstItem="1EQ-vP-K7l" firstAttribute="leading" secondItem="fiq-Rt-1jG" secondAttribute="leading" id="uwR-8d-meN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="JalanTikusWebViewApps" destination="1EQ-vP-K7l" id="Y5F-i2-wvh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NLa-30-8eD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1208.8" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="asd.jpeg" width="302" height="167"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="T3z-wz-koZ"/>
+    </inferredMetricsTieBreakers>
+</document>
